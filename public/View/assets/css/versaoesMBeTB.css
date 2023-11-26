@@ -1,0 +1,95 @@
+.corBackgroundOpacidade {
+    align-items: center;
+    padding: 2em 10em;
+}
+
+@media (max-width: 920px) {
+    .col-md-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    #catalogo .col-lg-4{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    body {
+        overflow-x: hidden!important; /* Desativa a barra de rolagem horizontal */
+    }
+
+    .tituloDestaque {
+        font-size: 24px;
+        text-align: center!important;
+    }
+
+    /*Menu*/
+    .navbar-expand-md{
+        justify-content: center;
+        margin-bottom: 2em;
+    }
+    /*Quem somos*/
+    .corBackgroundOpacidade {
+        align-items: center;
+        padding: 2em 2em;
+    }
+
+     img {
+        width: 100%;
+    }
+
+
+    /*carrousel*/
+    .caixaCarousel {
+        padding: 0em;
+    }
+
+    .product-card{
+        margin-bottom: 1em;
+    }
+    /*footer*/
+    footer {
+        padding: 2em 3em!important;
+        text-align: center;
+    }
+
+    .fa-envelope,.fa-square-instagram{
+        margin-bottom: 1em;
+    }
+
+    .informacoesFooter h4{
+        font-size: 18px;
+    }
+
+    /*pagina falizar compra */
+    .sempl{
+        padding: 2em!important;
+    }
+
+    /* pagina pedido */
+    .estilocelular{
+        padding: 0px!important;
+        text-align: center;
+        margin-top: 1em!important;
+    }
+    #suaBarraDePesquisa{
+        border-radius: 15px!important;
+    }
+    .pesquisaTabelaProduto{
+        border-radius: 15px!important;
+        margin: 1em 0em!important;
+        height: 50px;
+    }
+
+    /* pagina cátalago*/
+
+    .d-block button{
+        margin-bottom: 1em;
+    }
+
+    /* pagina Cadastre um produto*/
+    #descricao{
+        width: 100%;
+    }
+}
+
